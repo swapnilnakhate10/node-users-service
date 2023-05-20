@@ -1,0 +1,26 @@
+{
+    "serverPort" : 3115,
+    "mongoDb" : {
+        "port" : 27017,
+        "dbname" : "TheBakersTreat",
+        "connectionString" : "mongodb://localhost:27017/BakersTreat"
+    },
+    "logger" : {
+        "type" : "console",
+        "level" : "trace"
+    },
+    "token" : {
+        "audience" : "node-boiler",
+        "secret" : "my-secrete",
+        "issuer" : "NodeBoilerPlate"
+    },
+    "saltRounds" : 10,
+    "mailer" : {
+        "host" : "smtp.gmail.com",
+        "port" : 587,
+        "secureSSL" : false,
+        "username" : "swapnil.nakhate@yopmail.com",
+        "password" : "Pa$$w0rd"
+    },
+    "adminMailId" : "developer@yopmail.com"
+}
